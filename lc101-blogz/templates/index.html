@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+   
+<h1> {{ welcome }} </h1>
+<nav>
+  <a href="/newpost">Make a New Post</a>
+  <a href="/blog">Main Blog Page</a>
+  <a href="/logout">Log Out</a>
+</nav>
+
+<h1>Check Out These Killer Blog Post Authors!</h1>
+<hr>
+
+    
+    
+{% for user in users %}
+    <li> <a href="./blog?owner_id={{user.id}}"> {{ user.username }}</li></a>
+    </div>
+{% endfor %}
+    
+        
+
+    
+
+
+{% endblock %}

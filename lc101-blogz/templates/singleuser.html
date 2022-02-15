@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+   
+<h1> {{ welcome }} </h1>
+<nav>
+  <a href="/newpost">Make a New Post</a>
+  <a href="/blog">Main Blog Page</a>
+  <a href="/logout">Log Out</a>
+</nav>
+
+
+
+
+
+    {% for blog in posts %}
+    <div class="indblogtitle">
+    <p>{{blog.title}}</p>
+    </div>
+    
+    <div class="indblogpost">
+    <p>{{blog.post}}</p>
+    </div>
+        
+<hr>
+
+    {% endfor %}
+
+{% endblock %}

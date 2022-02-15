@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="center">
+	<div class="login register">
+		<div class="logo"></div>
+		<div class="content">
+			<form method="POST" action=/signup>
+				<h3 class="title">Signup for a RallyNet account!</h3>
+				
+				<div class="name-group">
+					<label for="username" id="userLabel">Username</label>
+					<input name="username" type="text" placeholder="Ex: MGronholm" id="username" class="form-control" autofocus autocomplete="off" minlength="3" maxlength="13" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required/>
+					<label for="username" id="userLabel">Must start with a letter and no spaces.</label>
+					<span class="error">{{username_error}}</span>
+				</div>
+				
+				
+				<div class="mail-group">
+					<label for="email">E-mail</label>
+					<input type="email" value='{{email}}' placeholder="nolift@rally.net" class="form-control" required/>
+				</div> 
+				
+				
+				<div class="password-group">
+					<label for="password">Password</label>
+					<input name="password" type="password" value='{{password}}' placeholder="*************" class="form-control" required/>
+					<label for="password-verify">Verify Password</label>
+					<input name="password-verify" type="password" value='{{password_verify}}' placeholder="*************" class="form-control" required/>
+					<div><h3><span class="error">{{password_error}}</span></h3></div>
+				</div>
+				
+				
+				<button class="btn">Signup!</button>
+				
+
+			</form>
+		</div>
+		<footer>
+		</footer>
+	</div>
+</div>
+  
+  
+
+   
+
+{% endblock %}		
+
+
+
+</body>
+
+</html>

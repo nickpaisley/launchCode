@@ -1,0 +1,86 @@
+body {
+	/* Old browsers */
+	background: #141E30;
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(-45deg, rgb(26, 146, 116), #141E30);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(-45deg, rgb(24, 161, 116), rgb(4, 16, 37));
+	margin: 0;
+	padding: 0;
+  }
+  
+  h1 {
+	color: #FFF;
+	font-size: 2em;
+	padding-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Alegreya';font-size: 42px;
+	/* font-style: italic; */
+	
+  }
+  
+  h2 {
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	font-size: 22px;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
+	line-height: 24px;
+	padding-top: 30px;
+	/* padding-bottom: 30px; */
+	width: 100%;
+	text-align: center;
+	
+  }
+  h3 {
+	color: #FFF;
+	font-size: 20px;
+	padding-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
+	}	
+	
+	p {
+	color: AliceBlue;
+	text-align: center;
+	width: 100%;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
+	}
+	
+	ul {
+	text-align: left;
+	color: #FFF;
+	list-style-position: inside;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
+	margin: auto;
+	padding-left: 45%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	}
+		  
+  .caption {
+	display: block;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	top: 90%;
+	position: relative;
+  }
+  
+  .content {
+	padding: 40px;
+	text-align: center;
+	margin-left: auto;
+  }
+	
+	.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;	
+	}
+    

@@ -1,0 +1,8 @@
+Design notes for Restaurant Menu Studio
+
+Things we need to do;
+A way to add and remove menu items from the menu
+A way to tell if a menu item is new
+A way to tell when the menu was last updated
+A way to print out both a menu item and an entire menu
+A way to determine whether or not two menu items are equal
